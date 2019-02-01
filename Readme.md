@@ -20,7 +20,7 @@
 - If you want to edit the config you need to start proxy and go to server selection.
     - Will be generated afterwards in the modules folder.
 - A list of things that can be edited can be found here only for experienced users.
-	- Abnormalblock => blacklist for blocking screen effects.
+	- Abnormalblock => blacklist for blocking effects on your screen.
     - Crystalblock => blacklist for blocking messages on your screen.
     - Skillblock => blacklist for blocking messages on your screen.
 
