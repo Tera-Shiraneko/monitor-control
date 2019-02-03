@@ -1,5 +1,10 @@
 module.exports = [
     {
+        "key": "blockscene",
+        "name": "Prevents cutscenes from playing.",
+        "type": "bool"
+    },
+    {
         "key": "blockzoom",
         "name": "Blocks zoom scripts in dungeons.",
         "type": "bool"

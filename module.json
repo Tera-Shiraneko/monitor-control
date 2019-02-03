@@ -2,7 +2,7 @@
     "disableAutoUpdate": false,
     "name": "Monitorcontrol",
     "author": "Shalltearz",
-    "description": "Tera proxy module to reduce stress from screen abnormalities.",
+    "description": "Tera proxy module to remove useless screen effects.",
     "version": "1.0",
     "options": {
         "niceName": "Monitorcontrol",

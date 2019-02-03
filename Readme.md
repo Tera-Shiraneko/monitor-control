@@ -1,12 +1,13 @@
-## Tera proxy module to reduce stress from screen abnormalities.
+## Tera proxy module to remove useless screen effects.
 
 ---
 
 ## Console Command
-- Type `/8 blockabnormality` to enable or disable screen abnormalities.
-- Type `/8 blockcrystal` to enable or disable crystal refresh messages.
-- Type `/8 blockzoom` to enable or disable blocking of zoom scripts.
-- Type `/8 blockskill` to enable or disable skill refresh effects.
+- Type `/8 blockabnormality` to enable or disable screen abnormalities. Enabled by default.
+- Type `/8 blockcrystal` to enable or disable crystal refresh messages. Enabled by default.
+- Type `/8 blockzoom` to enable or disable blocking of zoom scripts. Enabled by default.
+- Type `/8 blockscene` to enable or disable blocking of cutscenes. Enabled by default.
+- Type `/8 blockskill` to enable or disable skill refresh effects. Enabled by default.
     - Should only be enabled with custom cooldown interface.
 
 ---

@@ -24,15 +24,17 @@
         "Abnormalities/Abnormality-Icons/Socialcry.png": "3f61fca0c82652ed76f1eed5f5a5c8205a643a227cc2ccc3f09dc8a6f7eac61e",
         "Abnormalities/Abnormality-Icons/Traversecut.png": "307686df0d775bef4083d09a20ec4d56f4e86db844a8a4add85e6b93305a83f4",
         "Abnormalities/Readme.md": "a8f061618705f620c6f673a94e44f14d4c9d54beca3702a1eff9732f11e1567e",
-        "Readme.md": "62ffb26a84246380f0ba531a8780fc2d52db732106d3cf8e11a00ab451ba03c2",
-        "index.js": "d5f3e2b35c1b194d032f319fc56a1a511a271010f0cd94dc3cf4998f4ba701aa",
-        "module.json": "c818e72fa99e1f4d64967940780abe24ce3b94bc5eb7ade4928ac270f242a5e6",
-        "settings_migrator.js": "50fd1893544329248fde6ca67da5cf3f5b346827c065ef41821bcd2a9e08e7d8",
-        "settings_structure.js": "114c9d1f4f19a05e244dcb22bb15036fd44ed991602836f6ee5f3d1fe968f92e"
+        "Readme.md": "519507b8ca6f9919d2d27d516cac2b584919562a399648aa3ccb4be4d36d32c8",
+        "index.js": "3efb9c1d55e285940c0d11f9507e52e1a9e928e1cd81fbb15d5035a9f65672db",
+        "module.json": "e45fdce66791a8f3cd3c267cad70e1356f34935f80ba885954641306aa5198fe",
+        "settings_migrator.js": "5c7e513c2350c980e8a1310e4a1598aa2956f6f3309bcd139edb90497592f56f",
+        "settings_structure.js": "0a16a94bcf1fb926654d96bcdd9b8237db644b42d71fe1cc882b12fdbbb22a1f"
     },
     "defs": {
+        "C_END_MOVIE": 1,
         "S_ABNORMALITY_BEGIN": 3,
         "S_ABNORMALITY_REFRESH": 1,
+        "S_PLAY_MOVIE": 1,
         "S_START_ACTION_SCRIPT": 3
     }
 }

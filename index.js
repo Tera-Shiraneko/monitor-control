@@ -14,6 +14,11 @@ module.exports = function Monitorcontrol(mod) {
         }
     });
 
+    mod.command.add('blockscene', () => {
+        mod.settings.blockscene = !mod.settings.blockscene;
+        mod.command.message(`Blocking of cutscenes is now ${mod.settings.blockscene ? "enabled" : "disabled"}.`);
+    });
+
     mod.command.add('blockzoom', () => {
         mod.settings.blockzoom = !mod.settings.blockzoom;
         mod.command.message(`Blocking of zoom scripts is now ${mod.settings.blockzoom ? "enabled" : "disabled"}.`);
@@ -34,6 +39,13 @@ module.exports = function Monitorcontrol(mod) {
         mod.command.message(`Blocking skill refresh effects is now ${mod.settings.blockskill ? "enabled" : "disabled"}.`);
     });
 
+    mod.hook('S_PLAY_MOVIE', 1, (event) => {
+        if (mod.settings.blockscene) {
+            mod.send('C_END_MOVIE', 1, Object.assign({unk: 1}, event));
+            return false;
+        }
+    });
+
     mod.hook('S_START_ACTION_SCRIPT', 3, (event) => {
         if (mod.settings.blockzoom && event.script > 0) return false;
     });
@@ -49,7 +61,7 @@ module.exports = function Monitorcontrol(mod) {
 
     let ui = null;
     if (global.TeraProxy.GUIMode) {
-        ui = new SettingsUI(mod, require('./settings_structure'), mod.settings, { height: 223 }, { alwaysOnTop: true });
+        ui = new SettingsUI(mod, require('./settings_structure'), mod.settings, { height: 255 }, { alwaysOnTop: true });
         ui.on('update', settings => { mod.settings = settings; });
 
         this.destructor = () => {
