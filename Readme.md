@@ -1,4 +1,4 @@
-## Tera proxy module to remove useless screen effects.
+## Tera proxy module to remove useless effects from your screen.
 
 ---
 
