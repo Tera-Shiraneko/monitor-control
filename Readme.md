@@ -3,17 +3,17 @@
 ---
 
 ## Console Command
-- Type `/8 blockabnormality` to enable or disable screen abnormalities. Enabled by default.
-- Type `/8 blockcrystal` to enable or disable crystal refresh messages. Enabled by default.
-- Type `/8 blockzoom` to enable or disable blocking of zoom scripts. Enabled by default.
-- Type `/8 blockscene` to enable or disable blocking of cutscenes. Enabled by default.
-- Type `/8 blockskill` to enable or disable skill refresh effects. Enabled by default.
+- Type `/8 block abnormal` to enable or disable screen effect abnormalities. Enabled by default.
+- Type `/8 block crystal` to enable or disable crystal refresh messages. Enabled by default.
+- Type `/8 block zoom` to enable or disable blocking of zoom scripts. Enabled by default.
+- Type `/8 block scene` to enable or disable blocking of cutscenes. Enabled by default.
+- Type `/8 block skill` to enable or disable skill refresh effects. Enabled by default.
     - Should only be enabled with custom cooldown interface.
 
 ---
 
 ## Interface Command
-- Type `/8 blockconfig` to enable or disable the functions written above.
+- Type `/8 block config` to enable or disable the functions written above.
 
 ---
 

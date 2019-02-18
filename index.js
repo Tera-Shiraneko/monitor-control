@@ -8,35 +8,32 @@ module.exports = function Monitorcontrol(mod) {
         mod.warn('It is highly recommended that you download the latest official version from the #proxy channel in http://tiny.cc/caalis-tera-proxy');
     }
 
-    mod.command.add('blockconfig', () => {
-        if (ui) {
-            ui.show();
+    mod.command.add('block', (arg_1) => {
+        if (arg_1 === 'scene') {
+            mod.settings.blockscene = !mod.settings.blockscene;
+            mod.command.message(`Blocking of cutscenes is now ${mod.settings.blockscene ? "enabled" : "disabled"}.`);
         }
-    });
-
-    mod.command.add('blockscene', () => {
-        mod.settings.blockscene = !mod.settings.blockscene;
-        mod.command.message(`Blocking of cutscenes is now ${mod.settings.blockscene ? "enabled" : "disabled"}.`);
-    });
-
-    mod.command.add('blockzoom', () => {
-        mod.settings.blockzoom = !mod.settings.blockzoom;
-        mod.command.message(`Blocking of zoom scripts is now ${mod.settings.blockzoom ? "enabled" : "disabled"}.`);
-    });
-	
-    mod.command.add('blockabnormality', () => {
-        mod.settings.blockabnormality = !mod.settings.blockabnormality;
-        mod.command.message(`Blocking screen abnormalities is now ${mod.settings.blockabnormality ? "enabled" : "disabled"}.`);
-    });
-	
-    mod.command.add('blockcrystal', () => {
-        mod.settings.blockcrystal = !mod.settings.blockcrystal;
-        mod.command.message(`Blocking crystal refresh messages is now ${mod.settings.blockcrystal ? "enabled" : "disabled"}.`);
-    });
-
-    mod.command.add('blockskill', () => {
-        mod.settings.blockskill = !mod.settings.blockskill;
-        mod.command.message(`Blocking skill refresh effects is now ${mod.settings.blockskill ? "enabled" : "disabled"}.`);
+        else if (arg_1 === "zoom") {
+            mod.settings.blockzoom = !mod.settings.blockzoom;
+            mod.command.message(`Blocking of zoom scripts is now ${mod.settings.blockzoom ? "enabled" : "disabled"}.`);
+        }
+        else if (arg_1 === "abnormal") {
+            mod.settings.blockabnormality = !mod.settings.blockabnormality;
+            mod.command.message(`Blocking screen abnormalities is now ${mod.settings.blockabnormality ? "enabled" : "disabled"}.`);
+        }
+        else if (arg_1 === "crystal") {
+            mod.settings.blockcrystal = !mod.settings.blockcrystal;
+            mod.command.message(`Blocking crystal refresh messages is now ${mod.settings.blockcrystal ? "enabled" : "disabled"}.`);
+        }
+        else if (arg_1 === "skill") {
+            mod.settings.blockskill = !mod.settings.blockskill;
+            mod.command.message(`Blocking skill refresh effects is now ${mod.settings.blockskill ? "enabled" : "disabled"}.`);
+        }
+        else if (arg_1 === "config") {
+            if (ui) {
+                ui.show();
+            }
+        }
     });
 
     mod.hook('S_PLAY_MOVIE', 1, (event) => {
