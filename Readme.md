@@ -30,6 +30,11 @@
 
 ---
 
+## Abnormalinfo
+- [Abnormality Overview](https://github.com/neowutran/TeraDpsMeterData/tree/master/hotdot)
+
+---
+
 ## Note
 - An abnormality overview for the default abnormals can be found here [Abnormality Overview](https://github.com/Tera-Shiraneko/monitor-control/tree/master/Abnormalities).
 - An download link for tera custom cooldowns can be found here [Tera Custom Cooldowns](https://github.com/Foglio1024/Tera-custom-cooldowns/releases).
