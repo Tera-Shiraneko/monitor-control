@@ -9,7 +9,7 @@ module.exports = function Monitorcontrol(mod) {
     }
 
     mod.command.add('block', (arg_1) => {
-        if (arg_1 === 'scene') {
+        if (arg_1 === "scene") {
             mod.settings.blockscene = !mod.settings.blockscene;
             mod.command.message(`Blocking of cutscenes is now ${mod.settings.blockscene ? "enabled" : "disabled"}.`);
         }
