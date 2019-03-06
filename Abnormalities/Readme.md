@@ -23,6 +23,7 @@
 70254 | Abnormal | ![Image didn't load... try refresh](/Abnormalities/Abnormality-Icons/Rootbeer.png?raw=true) | Drunk screen effect over an certain amount of time.
 70255 | Abnormal | ![Image didn't load... try refresh](/Abnormalities/Abnormality-Icons/Moonpumpkin.png?raw=true) | Drunk screen effect over an certain amount of time.
 70256 | Abnormal | ![Image didn't load... try refresh](/Abnormalities/Abnormality-Icons/Fruitwine.png?raw=true) | Drunk screen effect over an certain amount of time.
+70465 | Abnormal | ![Image didn't load... try refresh](/Abnormalities/Abnormality-Icons/Adrenalinesyringe.png?raw=true) | Drunk screen effect over an certain amount of time.
 101300 | Skill | ![Image didn't load... try refresh](/Abnormalities/Abnormality-Icons/Traversecut.png?raw=true) | Skill refresh message and showing stacks in the buff bar.
 101301 | Skill | ![Image didn't load... try refresh](/Abnormalities/Abnormality-Icons/Traversecut.png?raw=true) | Skill refresh message and showing stacks in the buff bar.
 476806 | Abnormal | ![Image didn't load... try refresh](/Abnormalities/Abnormality-Icons/Darkriftdestroy.png?raw=true) | Shadow effect over the edges of your screen.
