@@ -47,11 +47,11 @@ module.exports = function Monitorcontrol(mod) {
         if (mod.settings.blockzoom && event.script > 0) return false;
     });
 
-    mod.hook('S_ABNORMALITY_BEGIN', 3, {order: 1000, filter: {fake: null}}, (event) => {
+    mod.hook('S_ABNORMALITY_BEGIN', 5, {order: 1000, filter: {fake: null}}, (event) => {
         if (mod.settings.blockabnormality && mod.settings.abnormalblock.includes(event.id)) return false;
     });
 
-    mod.hook('S_ABNORMALITY_REFRESH', 1, (event) => {
+    mod.hook('S_ABNORMALITY_REFRESH', 2, (event) => {
         if (mod.settings.blockcrystal && mod.settings.crystalblock.includes(event.id)) return false;
         if (mod.settings.blockskill && mod.settings.skillblock.includes(event.id)) return false;
     });
